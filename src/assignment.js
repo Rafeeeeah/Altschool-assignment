@@ -22,7 +22,7 @@ function sumOfNumbers(arrayofNumbers) {
   });
     return total;
 }
-assignment.sumOfNumbers = sumOfNumbers;
+assignment.sumOfNumbers = sumOfNumbers
 
 /**
  * Challenge - 2
@@ -65,13 +65,9 @@ assignment.countEvenNumbers = countEvenNumbers;
  * @returns Array the converted temperatures in Fahrenheit
  */
 function celsiusToFahrenheit(arrayofNumbers) {
-    let result = arrayofNumbers.map((value ) => {
-      return Math.trunc(( value * 9) / 5 + 32);
-    });
-  return result;
+    return arrayofNumbers;
 }
-assignment.celsiusToFahrenheit = celsiusToFahrenheit;
-
+// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 // ========================
 // DO NOT EDIT THIS BLOCK
